@@ -1,0 +1,60 @@
+html, body {
+	height: 100%;
+}
+body {
+	background: url(../img/universo.jpg) no-repeat left top/ 100% 100%;
+	height: 100%;
+}
+.container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.box {
+	/* width: 35%; */
+	/* height: 50%; */
+	flex-shrink: 2;
+	padding: 0 10px;
+}
+.box img {
+	width: 100%;
+	/*box-shadow: 2px 2px 5px rgba(0,0,0, .9);*/
+	/*border-radius: 50%;*/
+}
+.box img:hover {
+	width: 110%;
+}
+.sol {
+	flex-shrink: 1;
+}
+.moon {
+	flex-shrink: 2.5;
+}
+/* .sol {
+	left: -20%;
+	width: 45%;
+	position: absolute;
+}
+	.sol img {
+		width: 100%;
+		height: 100%;
+	}
+
+.mercurio {
+	width: 20%;
+}
+	.mercurio img {
+		width: 100%;
+	}
+.moon {
+	align-self: flex-end;
+}
+.moon img {
+	box-shadow: 10px 10px 20px rgba(0,0,0,.3);
+	border-radius: 70%;
+	width: 100px;
+	height: 100px;
+} */
